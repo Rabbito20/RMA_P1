@@ -12,33 +12,48 @@
         android:layout_height="192dp"
         android:layout_marginTop="12dp"
         android:src="@drawable/ic_pfp_big"
-        app:layout_constraintBottom_toTopOf="@id/tvProfileName"
+        app:layout_constraintBottom_toTopOf="@id/userInfoContainer"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/main_color_front" />
 
-    <TextView
-        android:id="@+id/tvProfileName"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/userInfoContainer"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Student"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@id/tvMail"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/img_profile" />
-
-    <TextView
-        android:id="@+id/tvMail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="sstudentic@raf.rs"
-        android:textSize="24sp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@id/btnChangePassword"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvProfileName" />
+        app:layout_constraintTop_toBottomOf="@+id/img_profile">
+
+        <TextView
+            android:id="@+id/tvProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Student"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@id/tvMail"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="sstudentic@raf.rs"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvProfileName" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     <Button
         android:id="@+id/btnChangePassword"
@@ -47,10 +62,11 @@
         android:layout_marginTop="24dp"
         android:background="@drawable/round_btn_cyan"
         android:text="@string/change_password"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/btnLogOut"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvMail" />
+        app:layout_constraintTop_toBottomOf="@id/userInfoContainer" />
 
     <Button
         android:id="@+id/btnLogOut"
@@ -59,6 +75,7 @@
         android:layout_marginBottom="12dp"
         android:background="@drawable/round_btn_orange"
         android:text="@string/logout"
+        android:textAllCaps="false"
         android:textColor="@color/main_color_front"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
