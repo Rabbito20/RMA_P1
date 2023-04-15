@@ -9,7 +9,9 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="main_color_front">#053135</color>
-    <color name="item_background_color_main1">#E2FAFC</color>
-    <color name="item_background_color_main2">#16D9EB</color>
-    <color name="logout_color">#F58A51</color>
+    <color name="cyan_light">#E2FAFC</color>
+    <color name="cyan_strong">#16D9EB</color>
+    <color name="orange">#F58A51</color>
+
+    <color name="green">#57CC99</color>
 </resources>
