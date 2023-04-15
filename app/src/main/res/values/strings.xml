@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">P1_NikolaDjurovicRN4316</string>
+
+    <string name="calendar_name">Calendar</string>
+
+    <string name="daily_plan_name">Daily plan</string>
+
+    <string name="profile_name">Profile</string>
+    <string name="change_password">Change password</string>
+    <string name="logout">Log out</string>
+
+</resources>

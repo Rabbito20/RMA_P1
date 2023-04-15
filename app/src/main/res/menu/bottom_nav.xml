@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_calendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/calendar_name"
+        />
+    <item
+        android:id="@+id/bottom_dailyPlan"
+        android:icon="@drawable/ic_daily_plan"
+        android:title="@string/profile_name" />
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/ic_profil"
+        android:title="@string/profile_name" />
+</menu>

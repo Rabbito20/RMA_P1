@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemitemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.P1_NikolaDjurovicRN4316" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@color/item_background_color_main1</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/item_background_color_main2</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/main_color_front</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+<!--        <item name="buttonBarButtonStyle">?attr/colorPrimary</item>-->
+
+        <!-- Customize your theme here. -->
+
+
+
+    </style>
+</resources>
