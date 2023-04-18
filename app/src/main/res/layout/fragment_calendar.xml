@@ -10,9 +10,9 @@
         android:id="@+id/tvMonthDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:gravity="center_horizontal"
         android:text="Month 2023."
-        android:layout_weight="1"
         android:textColor="@color/main_color_front"
         android:textSize="24sp" />
 
@@ -27,9 +27,9 @@
             android:id="@+id/tvMonday"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/monday"
-            android:gravity="center"
             android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/monday"
             android:textColor="@color/main_color_front"
             android:textSize="@dimen/sp_16"
             tools:ignore="NestedWeights" />
@@ -38,9 +38,9 @@
             android:id="@+id/tvTuesday"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tuesday"
-            android:gravity="center"
             android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tuesday"
             android:textColor="@color/main_color_front"
             android:textSize="@dimen/sp_16"
             tools:ignore="NestedWeights" />
@@ -49,9 +49,9 @@
             android:id="@+id/tvWednesday"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/wednesday"
-            android:gravity="center"
             android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/wednesday"
             android:textColor="@color/main_color_front"
             android:textSize="@dimen/sp_16"
             tools:ignore="NestedWeights" />
@@ -60,9 +60,9 @@
             android:id="@+id/tvThursday"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/thursday"
-            android:gravity="center"
             android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/thursday"
             android:textColor="@color/main_color_front"
             android:textSize="@dimen/sp_16"
             tools:ignore="NestedWeights" />
@@ -71,9 +71,9 @@
             android:id="@+id/tvFriday"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/friday"
-            android:gravity="center"
             android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/friday"
             android:textColor="@color/main_color_front"
             android:textSize="@dimen/sp_16"
             tools:ignore="NestedWeights" />
@@ -82,9 +82,9 @@
             android:id="@+id/tvSaturday"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/saturday"
-            android:gravity="center"
             android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/saturday"
             android:textColor="@color/main_color_front"
             android:textSize="@dimen/sp_16"
             tools:ignore="NestedWeights" />
@@ -93,9 +93,9 @@
             android:id="@+id/tvSunday"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sunday"
-            android:gravity="center"
             android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/sunday"
             android:textColor="@color/main_color_front"
             android:textSize="@dimen/sp_16"
             tools:ignore="NestedWeights" />
@@ -107,6 +107,6 @@
         android:id="@+id/rvCalendar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        />
+        android:orientation="horizontal" />
 
 </LinearLayout>

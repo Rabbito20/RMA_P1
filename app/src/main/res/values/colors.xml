@@ -10,6 +10,7 @@
 
     <color name="main_color_front">#053135</color>
     <color name="cyan_light">#E2FAFC</color>
+    <color name="cyan_medium">#C5F6FA</color>
     <color name="cyan_strong">#16D9EB</color>
     <color name="orange">#F58A51</color>
 
