@@ -31,4 +31,6 @@
     <string name="change_password">Change password</string>
     <string name="logout">Log out</string>
 
+    <string name="btn_login">Login</string>
+
 </resources>

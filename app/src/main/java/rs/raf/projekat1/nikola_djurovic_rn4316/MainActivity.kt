@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 //        setContentView(R.layout.activity_main)
         setContentView(binding.root)
         replaceFragment(CalendarFragment())
+        //  TODO: Fix CalendarFragment!!!
 
         binding.bottomNavView.setOnItemSelectedListener {
             when(it.itemId) {
