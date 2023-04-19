@@ -1,7 +1,10 @@
 package rs.raf.projekat1.nikola_djurovic_rn4316
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import android.widget.Button
 import androidx.fragment.app.Fragment
 import rs.raf.projekat1.nikola_djurovic_rn4316.calendar.CalendarFragment
 import rs.raf.projekat1.nikola_djurovic_rn4316.daily_plan.DailyFragment
@@ -31,6 +34,8 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+
+
     }
 
     private fun replaceFragment(fragment: Fragment) {

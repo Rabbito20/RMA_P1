@@ -66,5 +66,11 @@
         <item name="strokeColor">@color/main_color_front</item>
     </style>
 
+    <style name="Theme.AppCompat.EditText">
+        <item name="cornerRadius">32dp</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="background">@drawable/round_btn_orange</item>
+    </style>
+
 
 </resources>
