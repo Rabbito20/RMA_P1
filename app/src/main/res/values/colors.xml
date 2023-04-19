@@ -12,7 +12,8 @@
     <color name="cyan_light">#E2FAFC</color>
     <color name="cyan_medium">#C5F6FA</color>
     <color name="cyan_strong">#16D9EB</color>
-    <color name="orange">#F58A51</color>
 
+    <color name="orange">#F58A51</color>
     <color name="green">#57CC99</color>
+    <color name="mid_prio_color">#F7CD35</color>
 </resources>

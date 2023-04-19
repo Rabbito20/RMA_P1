@@ -6,15 +6,76 @@
     android:layout_height="match_parent"
     tools:context=".daily_plan.DailyFragment">
 
-    <Button
-        android:id="@+id/btnDaily"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/round_btn_cyan"
-        android:text="Daily time"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/cyan_strong"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnDailyDate"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="-6dp"
+            android:backgroundTint="@color/cyan_strong"
+            android:clickable="false"
+            android:enabled="false"
+            android:text="March 29. 2023."
+            android:textColor="@color/main_color_front"
+            android:textSize="@dimen/sp_24"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            layout="@layout/show_past_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dim_8dp" />
+
+        <!--Search bar-->
+
+        <!--Buttons-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLowGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/green"
+                android:text="@string/low_prio"
+                android:textAllCaps="false"
+                android:textSize="@dimen/sp_16" />
+
+            <Button
+                android:id="@+id/btnMidYellow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/mid_prio_color"
+                android:text="@string/mid_prio"
+                android:textAllCaps="false"
+                android:textSize="@dimen/sp_16" />
+
+            <Button
+                android:id="@+id/btnHighOrange"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/orange"
+                android:text="@string/high_prio"
+                android:textAllCaps="false"
+                android:textSize="@dimen/sp_16" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

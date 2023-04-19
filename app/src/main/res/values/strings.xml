@@ -26,6 +26,11 @@
 
 
     <string name="daily_plan_name">Daily plan</string>
+    <string name="past_obligations_text">Show past obligations</string>
+
+    <string name="low_prio">Low</string>
+    <string name="mid_prio">Mid</string>
+    <string name="high_prio">High</string>
 
     <string name="profile_name">Profile</string>
     <string name="change_password">Change password</string>

@@ -1,15 +1,13 @@
 package rs.raf.projekat1.nikola_djurovic_rn4316.daily_plan
 
 import android.os.Bundle
-import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.CheckBox
+import androidx.fragment.app.Fragment
 import rs.raf.projekat1.nikola_djurovic_rn4316.R
-import rs.raf.projekat1.nikola_djurovic_rn4316.calendar.CalendarFragment
-import rs.raf.projekat1.nikola_djurovic_rn4316.databinding.ActivityLoginBinding
 
 class DailyFragment : Fragment() {
 
@@ -18,10 +16,6 @@ class DailyFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-//        binding.view?.findViewById<Button>(R.id.btnDaily)?.setOnClickListener {
-//            Log.e("Djura", "Daily -> pressed!")
-//        }
     }
 
     override fun onCreateView(

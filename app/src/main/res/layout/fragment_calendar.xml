@@ -3,23 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginTop="-6dp"
     android:orientation="vertical"
     tools:context=".calendar.CalendarFragment">
 
-    <TextView
+    <Button
         android:id="@+id/tvMonthDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:backgroundTint="@color/cyan_strong"
+        android:clickable="false"
         android:gravity="center_horizontal"
         android:text="Month 2023."
         android:textColor="@color/main_color_front"
-        android:textSize="24sp" />
+        android:textSize="@dimen/sp_24" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="-8dp"
         android:layout_weight="1"
         android:orientation="horizontal">
 
