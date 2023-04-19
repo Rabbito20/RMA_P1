@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemitemas.android.com/tools">
+<resources xmlns:tools="http://schemitemas.android.com/tools" xmlns:tools2="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.P1_NikolaDjurovicRN4316" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:backgroundTint">@color/cyan_light</item>
@@ -18,7 +18,53 @@
 
         <!-- Customize your theme here. -->
 
+    </style>
 
+    <style name="Theme.AppCompat.BottomNav">
+        <item name="android:background">@color/cyan_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Theme.AppCompat.ButtonTrio">
+        <item name="android:textColor">@color/main_color_front</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/main_color_front</item>
+    </style>
+
+    <style name="Theme.AppCompat.SearchBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cornerRadius">@dimen/dim_16dp</item>
+        <item name="android:layout_marginStart">@dimen/dim_16dp</item>
+        <item name="android:layout_marginEnd">@dimen/dim_16dp</item>
+        <item name="strokeColor">@color/cyan_strong</item>
+    </style>
+
+    <style name="Theme.AppCompat.LayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="background">@color/cyan_medium</item>
 
     </style>
+
+    <style name="Theme.AppCompat.RoundBorderButton">
+        <item name="android:textColor">@color/main_color_front</item>
+        <item name="android:backgroundTint">@color/cyan_strong</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">@dimen/dim_32dp</item>
+        <item name="strokeColor">@color/main_color_front</item>
+    </style>
+
+
 </resources>

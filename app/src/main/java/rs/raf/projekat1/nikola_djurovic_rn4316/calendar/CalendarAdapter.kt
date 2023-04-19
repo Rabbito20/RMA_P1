@@ -27,7 +27,7 @@ class CalendarAdapter(
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): CalendarViewHolder {
         val view = LayoutInflater.from(viewGroup.context)
-            .inflate(R.layout.calendar_cell, viewGroup, false)
+            .inflate(R.layout.layout_calendar_cell, viewGroup, false)
 
 //        val layoutParams: ViewGroup.LayoutParams = view.layoutParams
 //        layoutParams.height = (viewGroup.height * 0.16666667).toInt()

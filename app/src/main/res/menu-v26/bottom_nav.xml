@@ -8,7 +8,6 @@
     <item
         android:id="@+id/bottom_dailyPlan"
         android:icon="@drawable/ic_daily_plan"
-        android:iconTint="@color/main_color_front"
         android:title="@string/daily_plan_name" />
     <item
         android:id="@+id/bottom_profile"
