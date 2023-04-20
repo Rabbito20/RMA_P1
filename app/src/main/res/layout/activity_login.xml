@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Theme.AppCompat.DayNight.NoActionBar"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:layout_gravity="center">
 
     <ScrollView
@@ -17,6 +18,7 @@
 
         <LinearLayout
             android:id="@+id/lLayoutLogin"
+            style="@style/Theme.AppCompat.LayoutStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -25,8 +27,11 @@
                 android:id="@+id/etEmailLogin"
                 style="@style/Theme.AppCompat.EditText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_edit_text"
                 android:hint="@string/emailPlaceholder"
+                android:inputType="textEmailAddress"
+                android:textAlignment="center"
                 android:textColorHint="@color/light_grey"
                 app:layout_constraintBottom_toTopOf="@id/etUsernameLogin"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -37,7 +42,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dim_32dp"
+                android:background="@drawable/layout_edit_text"
                 android:hint="@string/username"
+                android:textAlignment="center"
                 android:textColorHint="@color/light_grey"
                 app:layout_constraintBottom_toTopOf="@id/etPasswordLogin"
                 app:layout_constraintTop_toBottomOf="@id/etUsernameLogin" />
@@ -48,8 +55,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dim_32dp"
+                android:background="@drawable/layout_edit_text"
                 android:hint="@string/password"
                 android:inputType="textPassword"
+                android:textAlignment="center"
                 android:textColorHint="@color/light_grey"
                 app:layout_constraintBottom_toTopOf="@id/btnLogin"
                 app:layout_constraintTop_toBottomOf="@id/etUsernameLogin" />

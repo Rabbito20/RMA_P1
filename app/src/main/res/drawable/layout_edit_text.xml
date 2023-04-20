@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/cyan_strong" />
+
+    <size android:height="@dimen/dim_32dp"/>
+    <solid android:color="@color/cyan_medium" />
     <corners android:radius="32dp" />
     <stroke
-        android:width="4dp"
+        android:width="2dp"
         android:color="@color/main_color_front" />
+
+
 </shape>

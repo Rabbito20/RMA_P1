@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dim_32dp"
         android:contentDescription="@string/app_name"
-        android:padding="@dimen/dim_64"
+        android:padding="@dimen/dim_64dp"
         android:src="@drawable/logo_dnevnjak"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
