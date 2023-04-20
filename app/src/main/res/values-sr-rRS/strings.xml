@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAF Dnevnjak</string>
+    <string name="calendar_name">Kalendar</string>
+    <string name="monday">Pon.</string>
+    <string name="tuesday">Uto.</string>
+    <string name="wednesday">Sre.</string>
+    <string name="thursday">Čet.</string>
+    <string name="friday">Pet.</string>
+    <string name="saturday">Sub.</string>
+    <string name="sunday">Ned.</string>
+    <string name="daily_plan_name">Plan dana</string>
+    <string name="past_obligations_text">Urađeni zadaci</string>
+    <string name="low_prio">Nizak</string>
+    <string name="mid_prio">Srednji</string>
+    <string name="high_prio">Visok</string>
+    <string name="profile_name">Profil</string>
+    <string name="change_password">Promenite šifru</string>
+    <string name="logout">Odjava</string>
+    <string name="btn_login">Prijava</string>
+    <string name="username">Korisničko ime</string>
+    <string name="password">Šifra</string>
+    <string name="invalid_username">Nije odgovarajuće korisničko ime.</string>
+    <string name="invalid_password">Šifra mora imati više of 5 karaktera.</string>
+    <string name="login_failed">Neuspešna prijava</string>
+</resources>
